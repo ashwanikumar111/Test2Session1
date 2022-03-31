@@ -1,4 +1,5 @@
- gcc -g p2original.c
+ 
+ gcc -g p2original.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -29,10 +30,10 @@ Breakpoint 1, main () at p2original.c:37
 Enter the coordinates of points :
 12
 15
-14
-13
 16
+13 
 12
+15 
 40    result=is_triangle(x1,y1,x2,y2,x3,y3);
 (gdb) n
 41    output(result);
@@ -40,3 +41,4 @@ Enter the coordinates of points :
 42    return 0;
 (gdb) n
 43  }
+(gdb) 
